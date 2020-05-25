@@ -66,7 +66,7 @@ class Book {
       }
     } else {
       return () => {
-        return true
+        return false
       }
     }
   }

@@ -1,0 +1,34 @@
+Escribir los ficheros HTML y JS necesarios para implementar un hotel, que se corresponda con el siguiente diagrama de clases:
+----------                       
+|  HOTEL  |
+----------
+|Nombre   |
+|Ciudad   |
+|Direccion|
+|Telefono |
+|SitioWeb |
+|Gerente  |
+|Habits.  |
+----------
+|get & set|
+----------
+
+----------
+|Gerente  |
+----------
+|NombeComp|
+|NumDoc   |
+|Telefono |
+----------
+|get & set|
+----------
+
+----------
+|Habitaci.|
+----------
+|Planta   |
+|NumCama  |
+|Telefono |
+----------
+|get & set|
+----------
