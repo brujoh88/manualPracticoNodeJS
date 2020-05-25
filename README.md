@@ -15,3 +15,7 @@ Ejemplo 2
 Ejemplo 2 Bis
 
 > Test unitarios en libro y autor + verificacion de ISBN
+
+Ejercicio 1 Resuelto
+
+> Modelo Hotel - Gerente - Habitaciones + QUnit
