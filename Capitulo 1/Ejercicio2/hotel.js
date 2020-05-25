@@ -61,6 +61,12 @@ class Hotel {
             return false
           }
           return true
+        case 'webPage':
+          let web = this.webPage
+          if (!/https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*/.test(web)) {
+            return false
+          }
+          return true
         default:
           break
       }
