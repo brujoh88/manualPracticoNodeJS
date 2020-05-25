@@ -39,6 +39,7 @@ class Book {
 
   // Valirdacion de campo ISBN del tipo DDD-DD-DDDDDD-D-D (13 digitos)
   check(campo) {
+    //Condicional para saber si existe y que sea != a vacio
     if (campo && campo !== '') {
       if (campo !== 'isbn') {
         return () => {

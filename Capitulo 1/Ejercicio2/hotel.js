@@ -50,4 +50,22 @@ class Hotel {
   setHabitaciones(date) {
     this.habitaciones = date
   }
+
+  //Validacion
+  check(campo) {
+    if (campo && campo !== '') {
+      switch (campo) {
+        case 'telHotel':
+          let tel = this.tel
+          if (!/^\+?\d{12}/.test(tel)) {
+            return false
+          }
+          return true
+        default:
+          break
+      }
+    } else {
+      return false
+    }
+  }
 }
