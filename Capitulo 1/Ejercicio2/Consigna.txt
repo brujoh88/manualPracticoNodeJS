@@ -1,0 +1,42 @@
+Se plantea modificar el ejercicio 1 (del hotel) para realizar la comprobobacion de los siguientes campos:
+
+    *El telefono del hotel del sig. formato: +DD DDDDDDDDD
+    *El sitio web: http://www.C+.C2-3
+    *El numero de documento: DDDDDDDD
+
+--------------
+|  HOTEL     |
+--------------
+|Nombre      |
+|Ciudad      |
+|Direccion   |
+|Telefono    |
+|SitioWeb    |
+|Gerente     |
+|Habitaciones|
+--------------
+|get & set   |
+|check(string|
+--------------
+
+--------------
+|Gerente     |
+--------------
+|NombeComp   |
+|NumDoc      |
+|Telefono    |
+--------------
+|get & set   |
+|check(string|
+--------------
+
+--------------
+|Habitaci.   |
+--------------
+|Planta      |
+|NumCama     |
+|Telefono    |
+--------------
+|get & set   |
+|check(string|
+--------------
