@@ -22,4 +22,21 @@ class Gerente {
   setTel(date) {
     this.tel = date
   }
+  check(campo) {
+    if (campo && campo !== "") {
+      switch (campo) {
+        case "dni":
+          let dni = this.dni
+          if (!/^[0-9]{7,8}$/.test(dni)) {
+            return false
+          }
+          return true
+
+        default:
+          break
+      }
+    } else {
+      return false
+    }
+  }
 }
