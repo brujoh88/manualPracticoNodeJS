@@ -19,3 +19,7 @@ Ejemplo 2 Bis
 Ejercicio 1 Resuelto
 
 > Modelo Hotel - Gerente - Habitaciones + QUnit
+
+Ejercicio 2 Resuelto
+
+> Modelo Hotel - Gerente - Habitaciones + Validacion tel. DNI y sitio web +QUnit
