@@ -1,0 +1,6 @@
+let persona1 = new Personas()
+persona1.setTitulo("Libro copado")
+persona1.setAutor("Gustavo")
+persona1.setEditorial("Santillan")
+persona1.setFechaEdicion("03/09/08")
+persona1.setIsbn("121221212")
