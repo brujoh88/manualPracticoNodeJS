@@ -1,0 +1,46 @@
+Hacer un refactoring del ejemplo del hotel para incluir metodos privados a las tres clases del digrama, en particular, los metodos que se muetran en el driagama de clases
+    
+--------------
+|  HOTEL     |
+--------------
+|Nombre      |
+|Ciudad      |
+|Direccion   |
+|Telefono    |
+|SitioWeb    |
+|Gerente     |
+|Habitaciones|
+--------------
+|get & set   |
+|check(campo)|
+|compruebaTel|
+|compruebaWeb|
+|DevuelveFals|
+--------------
+
+--------------
+|Gerente     |
+--------------
+|NombeComp   |
+|NumDoc      |
+|Telefono    |
+--------------
+|get & set   |
+|check(campo)|
+|compruebaTel|
+|compruebaDNI|
+|DevuelveFals|
+--------------
+
+--------------
+|Habitaci.   |
+--------------
+|Planta      |
+|NumCama     |
+|Telefono    |
+--------------
+|get & set   |
+|check(string|
+|compruebaTel|
+|DevuelveFals|
+--------------
