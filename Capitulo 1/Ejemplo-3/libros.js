@@ -36,7 +36,37 @@ class Libro {
     this.getIsbn = () => {
       return _isbn
     }
+    //Respuesta de control si el campo del check es incorrecta! (podria solucionarse con un Switch y return una ()=>{ return false})
+    this.devuelveFalse = () => {
+      return false
+    }
+    this.check = (nombreCampo) => {
+      if (nombreCampo && nombreCampo !== "") {
+        if (nombreCampo === "isbn") {
+          return this.compruebaIsbn
+        } else {
+          return this.devuelveFalse
+        }
+      } else {
+        return this.devuelveFalse
+      }
+    }
+    this.compruebaIsbn = () => {
+      let partesIsbn = _isbn.split("-"),
+        nPartes = partesIsbn.length
+      if (nPartes !== 5) {
+        return false
+      } else {
+        let valido = true
+        for (let i = 0; i < nPartes; i++) {
+          let estaParte = partesIsbn[i]
+          if (!/^([0-9])*$/.test(estaParte)) {
+            valido = false
+            break
+          }
+        }
+        return valido
+      }
+    }
   }
 }
-
-const libro1 = new Libro()
