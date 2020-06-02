@@ -4,6 +4,8 @@
 
 # - Capitulo 1 - Introduccion
 
+# - Capitulo 2 - ¿Ques necesario saber de JS?
+
 Ejemplo 1
 
 > Test unitario con QUnit
