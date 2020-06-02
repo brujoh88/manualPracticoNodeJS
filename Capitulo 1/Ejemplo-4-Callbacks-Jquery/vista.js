@@ -1,3 +1,6 @@
 $(document).ready(() => {
-  console.log("holaaa")
+  $("input#procesar").click((event) => {
+    event.preventDefault()
+    controlador(this)
+  })
 })

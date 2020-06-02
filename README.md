@@ -20,6 +20,10 @@ Ejemplo 3
 
 > Test unitarios en libro y autor + verificacion de ISBN [Clouser / Encapsulado]
 
+Ejemplo 4
+
+> Test unitarios en datos autor + validacion de datos [callbacks / JQuery]
+
 #### EJERCICIOS
 
 Ejercicio 1 Resuelto
